@@ -1,0 +1,18 @@
+<?xml version="1.0" encodign="UTF-8"?>
+ 
+<pc_components>
+   <devices>
+       <device type="computer">
+           <name>Matebook</name>
+           <company>Huawei</company>
+           <inches>13</inches>
+           <stock>150</stock>
+           <price currency="€">780</price>
+       </device>
+       <device type="computer">
+           <name>Titan</name>
+           <company>Slimbook</company>
+           <inches>15.6</inches>
+           <stock>50</stock>
+           <price currency="€">1949</price>
+       </device>
