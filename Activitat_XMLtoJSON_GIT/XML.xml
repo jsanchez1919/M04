@@ -16,3 +16,20 @@
            <stock>50</stock>
            <price currency="€">1949</price>
        </device>
+       <device type="tablet">jso
+           <name>Matepad</name>
+           <company>Huawei</company>
+           <inches>10.4</inches>
+           <stock>250</stock>
+           <price currency="€">180</price>
+       </device>
+       <device type="smartphone">
+           <name>P50 Pocket</name>
+           <company>Huawei</company>
+           <inches>9</inches>
+           <stock>345</stock>
+           <price currency="€">999</price>
+       </device>
+   </devices>
+</pc_components>
+
