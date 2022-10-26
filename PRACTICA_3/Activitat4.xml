@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Aquest arxiu recull les dades dels llibres que hi han en la botiga -->
+
+<bookstore>
+    <book>
+        <tittle> Neverending Story </tittle>
+        <publisher> Planeta </publisher>
+        <cover> Tapa Blanda </cover>
+        <price> 17€ </price>
+    </book>
+    <book>
+        <tittle> Los Juegos del hambre </tittle>
+        <publisher> Planeta </publisher>
+        <cover> Tapa Dura </cover>
+        <price> 18€ </price>
+    </book>
+    <book>
+        <tittle> El corredor del laberinto </tittle>
+        <publisher> Planeta </publisher>
+        <cover> Tapa Blanda </cover>
+        <price> 13€ </price>
+    </book>
+    <book>
+        <tittle> AFTER </tittle>
+        <publisher> Planeta </publisher>
+        <cover> Tapa Blanda </cover>
+        <price> 11€ </price>
+    </book>
+</bookstore>
