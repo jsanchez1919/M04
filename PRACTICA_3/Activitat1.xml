@@ -25,4 +25,10 @@
         <email> lolaleon@gmail.com </email>
         <dni> 64318975P </dni>
     </student>
+    <student nacionalitat = "Española">
+        <name> Paul </name>
+        <surname> Lopez </surname>
+        <email> paullopez@gmail.com </email>
+        <dni> 12345678L </dni>
+    </student>
 </students>
