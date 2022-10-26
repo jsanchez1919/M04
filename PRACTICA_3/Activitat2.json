@@ -1,0 +1,41 @@
+{
+    "students":{
+        "student":[
+            {
+                "nacionalitat": "Española",
+                "name": "Joan",
+                "surname": "Gago",
+                "email": "joangago@gmail.com",
+                "dni": "39522787X"
+            },
+            {
+                "nacionalitat": "Española",
+                "name": "Federico",
+                "surname": "de la Fuente",
+                "email": "fdelafuente@gmail.com",
+                "dni": "87422787X"
+            },
+            {
+                "nacionalitat": "Española",
+                "name": "Luis",
+                "surname": "Garcia",
+                "email": "luisgarcia@gmail.com",
+                "dni": "7892455861Z"
+            },
+            {
+                "nacionalitat": "Española",
+                "name": "Lola",
+                "surname": "Leon",
+                "email": "lolaleon@gmail.com",
+                "dni": "64318975P"
+            },
+            {
+                "nacionalitat": "Española",
+                "name": "Paul",
+                "surname": "Lopez",
+                "email": "paullopez@gmail.com",
+                "dni": "12345678L"
+            }
+        ]
+    } 
+}
