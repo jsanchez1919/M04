@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--en aquest arxiu recollim les dades dels estudiants-->
+<students>
+    <student nacionalitat = "Española"> 
+        <name> Joan </name>
+        <surname> Gago </surname>
+        <email> joangago@gmail.com </email>
+        <dni> 39522787X </dni>
+    </student>
+    <student nacionalitat = "Española">
+        <name> Federico </name>
+        <surname> de la Fuente </surname>
+        <email> fdelafuente@gmail.com </email>
+        <dni> 87422787X </dni>
+    </student>
+    <student nacionalitat = "Española">
+        <name> Luis </name>
+        <surname> Garcia </surname>
+        <email> luisgarcia@gmail.com </email>
+        <dni> 789245861Z </dni>
+    </student>
+    <student nacionalitat = "Española">
+        <name> Lola </name>
+        <surname> Leon </surname>
+        <email> lolaleon@gmail.com </email>
+        <dni> 64318975P </dni>
+    </student>
+</students>
