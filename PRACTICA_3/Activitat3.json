@@ -1,0 +1,30 @@
+{
+    "bookstore":{
+        "book":[
+        {
+            "title": "Neverending Story",
+            "publisher": "Planeta",
+            "cover": "Tapa Blanda",
+            "price": "17€"
+        },
+        {
+            "title": "Los juegos del hambre",
+            "publisher": "Planeta",
+            "cover": "Tapa Dura",
+            "price": "18€"
+        },
+        {
+            "title": "El corredor del laberinto",
+            "publisher": "Planeta",
+            "cover": "Tapa Blanda",
+            "price": "13€"
+        },  
+        {
+            "title": "AFTER",
+            "publisher": "Planeta",
+            "cover": "Tapa Blanda",
+            "price": "11€"
+        }
+        ]
+    }
+}
