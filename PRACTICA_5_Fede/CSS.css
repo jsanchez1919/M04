@@ -1,0 +1,12 @@
+table, th, td, tr {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+th {
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: rgb(168, 168, 168);
+}
+caption {
+    color: blue;
+}
