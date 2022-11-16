@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"> 
+<!--utilitzem aquest meta per poder escriure amb els nostres caràcters-->
+<html>
+    <head>
+        <title>Questionari</title>
+    </head>
+    <body>
+        <form>
+            <label>Nom</label><br>
+            <input type="text" id="name" name="name" placeholder="El teu nom"><br>
+            <label>Cognom</label><br>
+            <input type="text" id="cognom" cognom="cognom" placeholder="El teu cognom"><br>
+            <label>Edat</label><br>
+            <input type="text" id="edat" edat="edat" placeholder="20"><br>
+        </form>
+            <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+        <form>
+            <label>DAM</label>
+            <input type="radio" id="DAM" name="DAM" checked><br>
+            <label>ASIX</label>
+            <input type="radio" id="ASIX" name="ASIX"><br>
+            <label>Altre...</label>
+            <input type="radio" id="Altre" name="Altre"><br>
+        </form>
+            <p>Marca les teves aficions:</p>
+        <form>
+            <label>Estudiar</label>
+            <input type="checkbox" id="Estudiar" name="Estudiar"><br>
+            <label>ASIX</label>
+            <input type="checkbox" id="chASIX" name="ASIX"><br>
+            <label>Llibres</label>
+            <input type="checkbox" id="Llibres" name="Llibres"><br>
+            <label>Jugar a Magic</label>
+            <input type="checkbox" id="Magic" name="Magic"><br>
+            <label>Altres</label><br>
+            <textarea name="message" rows="10" cols="30" placeholder="Especifica quines"></textarea><br>
+        </form> <br>
+            
+        <form>
+            <lable for="html">L'estandard d'HTML que més m'agrada: </lable>
+            <select id="html" name="html">
+                <option value="HTML 4.01">HTML 4.01</option>
+                <option value="XHTML 1.0">XHTML 1.0</option>
+                <option value="HTML5" selected>HTML5</option>
+            </select>
+        </form>
+    </body>
+</html>
