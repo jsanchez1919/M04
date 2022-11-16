@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <meta charset="utf-8"/>
+		<title>PART_A_Joel</title>
+        <link rel="stylesheet" href="taula1css.css">
+	</head>
+    <!--Fet per Joel Sánchez-->
+    <body>
+        <!--Primera part, el placeholder fica el text predeterminat-->
+        <form style = "display:inline-block;margin-right:20px" >
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="El teu nom" ><br>
+
+        <br><label for="cognom">Cognom</label>
+        <input type="text" id="cognom" name="cognom" placeholder="El teu cognom"><br>
+
+        <br><label for="edat">Edat</label>
+        <input type="text" id="edat" name="edat" value="20"><br>
+      <!--Display Radio Buttoms     -->
+        <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+        <label for="dam">DAM</label>
+        <input type="radio" id="dam" name="cicle" value="dam" checked><br>
+        <label for="asix">ASIX</label>
+        <input type="radio" id="asix" name="cicle" value="asix"><br>
+        <label for="altre">Altre..</label>
+        <input type="radio" id="altre" name="cicle" value="altres"><br>
+            <!--Checkbox    -->
+        <p>Marca les teves aficions:</p>
+        <label for="estudiar">Estudiar</label>
+        <input type="checkbox" id="estudiar"  value="estudiar" checked><br>
+        <label for="asix">ASIX</label>
+        <input type="checkbox" id="asix" value="asix"><br>
+        <label for="llibres">Llibres</label>
+        <input type="checkbox" id="llibres" value="llibres"><br>
+        <label for="magic">Jugar a magic</label>
+        <input type="checkbox" id="magic" value="magic"><br>
+        <label for="burilles">Fer burilles</label>
+        <input type="checkbox" id="burilles" value="burilles"><br>
+            <!--Textarea-->
+        <label>Altres</label>
+        <textarea name="altres" rows="10" cols="50">Especifíca quines</textarea><br>
+        <!--Forms-->
+        <br><label for = "standard">L'estandard d'HTML que més m'agrada.</label>
+        <select id= "standard" name="html">
+        <option value="HTML 4.01">HTML 4.01</option>
+        <option value="XHTML 1.0">XHTML 1.0</option>
+        <option value="HTML 5">HTML 5</option>
+        </select>
+
+
+    </form>  
+    </body>
