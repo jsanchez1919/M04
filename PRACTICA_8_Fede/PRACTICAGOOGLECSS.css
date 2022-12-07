@@ -1,0 +1,39 @@
+ header {
+    display: flex;
+    padding: 15px;
+ }
+ 
+ .headerLeft {
+    align-items: left;
+  }
+
+.sobreGoogle:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Tienda:hover {
+    text-decoration: underline;
+}
+  .Tienda {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.headerRight {
+    align-items: right;
+}
+
+.inicioSesion {
+    padding: 9px 15px;
+    border: 1px transparent;
+    border-radius: 4px;
+    color: white;
+    background-color: #4285F4;
+    cursor: pointer;
+
+}
+.inicioSesion:hover {
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    background-color:#1a73e8;
+}
+
