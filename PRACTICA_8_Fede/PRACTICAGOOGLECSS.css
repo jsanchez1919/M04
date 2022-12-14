@@ -1,26 +1,37 @@
- header {
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
     display: flex;
     padding: 15px;
- }
- 
- .headerLeft {
-    align-items: left;
-  }
+    justify-content: space-between;
+}
+
+
 
 .sobreGoogle:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-.Tienda:hover {
+
+.tienda:hover {
     text-decoration: underline;
-}
-  .Tienda {
-    padding-left: 20px;
-    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-inline: 10px;
 }
 
-.headerRight {
-    align-items: right;
+.tienda {
+    padding-left: 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .inicioSesion {
@@ -30,10 +41,124 @@
     color: white;
     background-color: #4285F4;
     cursor: pointer;
+    font-size: 14px;
 
 }
+
 .inicioSesion:hover {
-    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
-    background-color:#1a73e8;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .25);
+    background-color: #1a73e8;
 }
 
+.menuDots {
+    align-items: center;
+    padding-inline: 10px;
+    border: 4px transparent;
+    border-radius: 50px;
+}
+
+.menuDots:hover {
+    background-color: #dadce0;
+}
+
+.imagenes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-inline: 10px;
+}
+
+.imagenes:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.gmail {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-inline: 10px;
+}
+
+.gmail:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.googleImage {
+    display: flex;
+    height: 28%;
+    align-items: end;
+    justify-content: center;
+}
+
+.actualGoogle:hover {
+    cursor: pointer;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fedeImage:hover {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .25);
+    cursor: pointer;
+}
+
+.joelImage:hover {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .25);
+    cursor: pointer;
+}
+
+.aboutUs {
+    display: flex;
+}
+
+.aboutFede {
+    flex: 1;
+    flex-direction: column;
+    justify-content: left;
+    width: 30%;
+    text-align: center;
+    margin-left: 17%;
+    margin-right: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutJoel {
+    flex-direction: column;
+    justify-content: right;
+    width: 30%;
+    text-align: center;
+    margin-right: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #dadce0;
+}
+
+.text {
+    color: #70757a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footerTop {
+    display: flex;
+    height: 5%;
+    align-items: center;
+    margin-left: 1%;
+    border-bottom: #70757a 1px;
+}
+
+.footerBot {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+    border:#70757a 1px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
